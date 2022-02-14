@@ -18,7 +18,7 @@ namespace AddressBookLinq
             myList.Add(new AddressDetails("Saravana", "kumar", "9887508756", "367-12", "Chennai", "698026", "Tamilnadu", "abcavc@gmail.com"));
             myList.Add(new AddressDetails("Angelina", "grace", "7087523256", "31-12", "Kolkata", "900026", "WestBengal", "abooc@gmail.com"));
 
-            //uc2
+            //uc3
             foreach (var address in myList)
             {
                 if (address.FirstName == "Vikram")
@@ -33,7 +33,7 @@ namespace AddressBookLinq
             }
 
 
-            //uc3
+            //uc4
             foreach (var address in myList)
             {
                 if (address.FirstName == "Priya")
